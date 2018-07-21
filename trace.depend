@@ -1,0 +1,251 @@
+# depslib dependency file v1.0
+1527787603 source:c:\users\toshiba\desktop\trace\main.cpp
+	<iostream>
+	<vector>
+	"Vector3D.h"
+	"Point3D.h"
+	"Normal.h"
+	"Ray.h"
+	"RGBcolor.h"
+	"ViewPlane.h"
+	"Sphere.h"
+	"World.h"
+
+1526995881 c:\users\toshiba\desktop\trace\vector3d.h
+
+1526996238 source:c:\users\toshiba\desktop\trace\vector3d.cpp
+	<math.h>
+	"Vector3D.h"
+
+1527079827 c:\users\toshiba\desktop\trace\include\vector3d.h
+	<math.h>
+	<iostream>
+
+1527062290 source:c:\users\toshiba\desktop\trace\src\vector3d.cpp
+	"Vector3D.h"
+
+1527787603 c:\users\toshiba\desktop\trace\include\point3d.h
+	"Vector3D.h"
+
+1527063496 source:c:\users\toshiba\desktop\trace\src\point3d.cpp
+	"Point3D.h"
+
+1527064931 source:c:\users\toshiba\desktop\trace\src\normal.cpp
+	"Normal.h"
+
+1527240231 c:\users\toshiba\desktop\trace\include\normal.h
+	"Point3D.h"
+
+1527072566 source:c:\users\toshiba\desktop\trace\src\ray.cpp
+	"Ray.h"
+
+1527079839 c:\users\toshiba\desktop\trace\include\ray.h
+	"Point3D.h"
+	"Vector3D.h"
+
+1527788067 source:c:\users\toshiba\desktop\trace\src\rgbcolor.cpp
+	"RGBcolor.h"
+
+1527788066 c:\users\toshiba\desktop\trace\include\rgbcolor.h
+	<iostream>
+
+1527076637 source:c:\users\toshiba\desktop\trace\src\viewplane.cpp
+	"ViewPlane.h"
+
+1527076637 c:\users\toshiba\desktop\trace\include\viewplane.h
+
+1527084189 source:c:\users\toshiba\desktop\trace\src\geometricobject.cpp
+	"GeometricObject.h"
+
+1527251145 c:\users\toshiba\desktop\trace\include\geometricobject.h
+	"RGBcolor.h"
+	"Ray.h"
+	"ShaderRec.h"
+
+1527786928 source:c:\users\toshiba\desktop\trace\src\shaderrec.cpp
+	"ShaderRec.h"
+	"Constants.h"
+	"World.h"
+
+1527250952 c:\users\toshiba\desktop\trace\include\shaderrec.h
+	"Normal.h"
+	"RGBcolor.h"
+
+1527795919 source:c:\users\toshiba\desktop\trace\src\sphere.cpp
+	<math.h>
+	"Sphere.h"
+	"Constants.h"
+
+1527793733 c:\users\toshiba\desktop\trace\include\sphere.h
+	"GeometricObject.h"
+
+1527789751 c:\users\toshiba\desktop\trace\include\world.h
+	"ViewPlane.h"
+	"RGBcolor.h"
+	"Tracer.h"
+	"GeometricObject.h"
+	"Sphere.h"
+	"Ray.h"
+	"SingleSphere.h"
+
+1527785818 c:\users\toshiba\desktop\trace\include\tracer.h
+	"Constants.h"
+	"RGBcolor.h"
+	"Ray.h"
+
+1527789193 c:\users\toshiba\desktop\trace\include\constants.h
+	<stdlib.h>
+	"RGBcolor.h"
+
+1527251140 c:\users\toshiba\desktop\trace\include\singlesphere.h
+	"Tracer.h"
+
+1527251143 source:c:\users\toshiba\desktop\trace\src\singlesphere.cpp
+	"SingleSphere.h"
+	"World.h"
+	"ShaderRec.h"
+
+1527786250 source:c:\users\toshiba\desktop\trace\src\tracer.cpp
+	"Tracer.h"
+	"World.h"
+
+1527795378 source:c:\users\toshiba\desktop\trace\src\world.cpp
+	<fstream>
+	<iostream>
+	"World.h"
+	"Constants.h"
+	"Vector3D.h"
+	"Point3D.h"
+	"Normal.h"
+	"Ray.h"
+
+1527787603 source:c:\users\toshiba\desktop\rtfgu-myself\main.cpp
+	<iostream>
+	<vector>
+	"Vector3D.h"
+	"Point3D.h"
+	"Normal.h"
+	"Ray.h"
+	"RGBcolor.h"
+	"ViewPlane.h"
+	"Sphere.h"
+	"World.h"
+
+1527079827 c:\users\toshiba\desktop\rtfgu-myself\include\vector3d.h
+	<math.h>
+	<iostream>
+
+1527787603 c:\users\toshiba\desktop\rtfgu-myself\include\point3d.h
+	"Vector3D.h"
+
+1527240231 c:\users\toshiba\desktop\rtfgu-myself\include\normal.h
+	"Point3D.h"
+
+1527079839 c:\users\toshiba\desktop\rtfgu-myself\include\ray.h
+	"Point3D.h"
+	"Vector3D.h"
+
+1527788066 c:\users\toshiba\desktop\rtfgu-myself\include\rgbcolor.h
+	<iostream>
+
+1527076637 c:\users\toshiba\desktop\rtfgu-myself\include\viewplane.h
+
+1527793733 c:\users\toshiba\desktop\rtfgu-myself\include\sphere.h
+	"GeometricObject.h"
+
+1532111642 c:\users\toshiba\desktop\rtfgu-myself\include\geometricobject.h
+	"RGBcolor.h"
+	"Ray.h"
+	"ShaderRec.h"
+
+1532111561 c:\users\toshiba\desktop\rtfgu-myself\include\shaderrec.h
+	"Normal.h"
+	"RGBcolor.h"
+
+1532112766 c:\users\toshiba\desktop\rtfgu-myself\include\world.h
+	<vector>
+	"ViewPlane.h"
+	"RGBcolor.h"
+	"Tracer.h"
+	"GeometricObject.h"
+	"Sphere.h"
+	"Ray.h"
+	"SingleSphere.h"
+
+1527785818 c:\users\toshiba\desktop\rtfgu-myself\include\tracer.h
+	"Constants.h"
+	"RGBcolor.h"
+	"Ray.h"
+
+1532113173 c:\users\toshiba\desktop\rtfgu-myself\include\constants.h
+	<stdlib.h>
+	"RGBcolor.h"
+
+1527251140 c:\users\toshiba\desktop\rtfgu-myself\include\singlesphere.h
+	"Tracer.h"
+
+1527084189 source:c:\users\toshiba\desktop\rtfgu-myself\src\geometricobject.cpp
+	"GeometricObject.h"
+
+1527064931 source:c:\users\toshiba\desktop\rtfgu-myself\src\normal.cpp
+	"Normal.h"
+
+1527063496 source:c:\users\toshiba\desktop\rtfgu-myself\src\point3d.cpp
+	"Point3D.h"
+
+1527072566 source:c:\users\toshiba\desktop\rtfgu-myself\src\ray.cpp
+	"Ray.h"
+
+1527788067 source:c:\users\toshiba\desktop\rtfgu-myself\src\rgbcolor.cpp
+	"RGBcolor.h"
+
+1527786928 source:c:\users\toshiba\desktop\rtfgu-myself\src\shaderrec.cpp
+	"ShaderRec.h"
+	"Constants.h"
+	"World.h"
+
+1527251143 source:c:\users\toshiba\desktop\rtfgu-myself\src\singlesphere.cpp
+	"SingleSphere.h"
+	"World.h"
+	"ShaderRec.h"
+
+1532141523 source:c:\users\toshiba\desktop\rtfgu-myself\src\sphere.cpp
+	<math.h>
+	"Sphere.h"
+	"Constants.h"
+
+1527786250 source:c:\users\toshiba\desktop\rtfgu-myself\src\tracer.cpp
+	"Tracer.h"
+	"World.h"
+
+1527062290 source:c:\users\toshiba\desktop\rtfgu-myself\src\vector3d.cpp
+	"Vector3D.h"
+
+1527076637 source:c:\users\toshiba\desktop\rtfgu-myself\src\viewplane.cpp
+	"ViewPlane.h"
+
+1532141257 source:c:\users\toshiba\desktop\rtfgu-myself\src\world.cpp
+	<fstream>
+	<iostream>
+	"World.h"
+	"Constants.h"
+	"Vector3D.h"
+	"Point3D.h"
+	"Normal.h"
+	"Ray.h"
+	"MultipleObjects.h"
+	"Plane.h"
+
+1532112118 source:c:\users\toshiba\desktop\rtfgu-myself\src\multipleobjects.cpp
+	"MultipleObjects.h"
+	"World.h"
+
+1532110551 c:\users\toshiba\desktop\rtfgu-myself\include\multipleobjects.h
+	"Tracer.h"
+
+1532110868 source:c:\users\toshiba\desktop\rtfgu-myself\src\plane.cpp
+	"Plane.h"
+
+1532112766 c:\users\toshiba\desktop\rtfgu-myself\include\plane.h
+	"GeometricObject.h"
+

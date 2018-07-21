@@ -1,0 +1,10 @@
+<map id="ShaderRec" name="ShaderRec">
+<area shape="rect" id="node2" href="$class_r_g_bcolor.html" title="RGBcolor" alt="" coords="157,5,235,32"/>
+<area shape="rect" id="node5" href="$class_world.html" title="World" alt="" coords="261,273,317,300"/>
+<area shape="rect" id="node9" href="$class_geometric_object.html" title="GeometricObject" alt="" coords="136,95,256,121"/>
+<area shape="rect" id="node3" href="$class_normal.html" title="Normal" alt="" coords="115,273,178,300"/>
+<area shape="rect" id="node4" href="$class_point3_d.html" title="Point3D" alt="" coords="43,95,111,121"/>
+<area shape="rect" id="node8" href="$class_sphere.html" title="Sphere" alt="" coords="165,184,227,211"/>
+<area shape="rect" id="node7" href="$class_tracer.html" title="Tracer" alt="" coords="300,363,359,389"/>
+<area shape="rect" id="node6" href="$class_view_plane.html" title="ViewPlane" alt="" coords="331,184,413,211"/>
+</map>

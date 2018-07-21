@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_world.html#a748e24c7951e21562bec33be4ea311b5" title="World::build" alt="" coords="130,183,221,209"/>
+<area shape="rect" id="node10" href="$class_world.html#a530bc69446763cee7191bb42e1021295" title="World::render_scene" alt="" coords="104,284,247,311"/>
+<area shape="rect" id="node3" href="$class_view_plane.html#ae239fe9ff3d8efe11f713068b4d6cb9c" title="ViewPlane::set_hres" alt="" coords="311,5,453,32"/>
+<area shape="rect" id="node4" href="$class_view_plane.html#ada09169124b1bd13e9b7561a081af77c" title="ViewPlane::set_vres" alt="" coords="313,56,451,83"/>
+<area shape="rect" id="node5" href="$class_view_plane.html#a3985f0979bd4bbc0e0a203b785985819" title="ViewPlane::set_pixel_size" alt="" coords="295,107,469,133"/>
+<area shape="rect" id="node6" href="$class_view_plane.html#a2b881442cc3d0e1c5591e95de946405c" title="ViewPlane::set_gamma" alt="" coords="303,157,461,184"/>
+<area shape="rect" id="node7" href="$_constants_8h.html#a49cbbe0999f5d19ad701a3b28f35f9ec" title="black" alt="" coords="517,284,571,311"/>
+<area shape="rect" id="node8" href="$class_sphere.html#a90c5c9b7c92b61629b26acb33885aef2" title="Sphere::set_center" alt="" coords="316,259,448,285"/>
+<area shape="rect" id="node9" href="$class_sphere.html#a6a7d9bb0286baa7b6d32ac4c6f779d4d" title="Sphere::set_radius" alt="" coords="317,309,447,336"/>
+<area shape="rect" id="node11" href="$class_tracer.html#a7c74fad5a2f971308d4bb34bccca46f8" title="Tracer::trace_ray" alt="" coords="322,360,442,387"/>
+</map>

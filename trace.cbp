@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trace" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/trace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/trace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Constants.h" />
+		<Unit filename="include/GeometricObject.h" />
+		<Unit filename="include/Normal.h" />
+		<Unit filename="include/Point3D.h" />
+		<Unit filename="include/RGBcolor.h" />
+		<Unit filename="include/Ray.h" />
+		<Unit filename="include/ShaderRec.h" />
+		<Unit filename="include/SingleSphere.h" />
+		<Unit filename="include/Sphere.h" />
+		<Unit filename="include/Tracer.h" />
+		<Unit filename="include/Vector3D.h" />
+		<Unit filename="include/ViewPlane.h" />
+		<Unit filename="include/World.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/GeometricObject.cpp" />
+		<Unit filename="src/Normal.cpp" />
+		<Unit filename="src/Point3D.cpp" />
+		<Unit filename="src/RGBcolor.cpp" />
+		<Unit filename="src/Ray.cpp" />
+		<Unit filename="src/ShaderRec.cpp" />
+		<Unit filename="src/SingleSphere.cpp" />
+		<Unit filename="src/Sphere.cpp" />
+		<Unit filename="src/Tracer.cpp" />
+		<Unit filename="src/Vector3D.cpp" />
+		<Unit filename="src/ViewPlane.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

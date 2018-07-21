@@ -1,0 +1,7 @@
+<map id="black" name="black">
+<area shape="rect" id="node2" href="$class_single_sphere.html#a434ae076f42124f316b57f79930128f8" title="SingleSphere::trace_ray" alt="" coords="107,5,268,32"/>
+<area shape="rect" id="node3" href="$class_tracer.html#a7c74fad5a2f971308d4bb34bccca46f8" title="Tracer::trace_ray" alt="" coords="127,56,247,83"/>
+<area shape="rect" id="node6" href="$class_world.html#a748e24c7951e21562bec33be4ea311b5" title="World::build" alt="" coords="342,107,433,133"/>
+<area shape="rect" id="node4" href="$class_world.html#a530bc69446763cee7191bb42e1021295" title="World::render_scene" alt="" coords="316,56,459,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="507,81,557,108"/>
+</map>

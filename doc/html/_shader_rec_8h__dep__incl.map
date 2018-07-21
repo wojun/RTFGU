@@ -1,0 +1,12 @@
+<map id="trace/include/ShaderRec.h" name="trace/include/ShaderRec.h">
+<area shape="rect" id="node2" href="$_geometric_object_8h.html" title="trace/include/GeometricObject.h" alt="" coords="305,80,515,107"/>
+<area shape="rect" id="node6" href="$_shader_rec_8cpp.html" title="trace/src/ShaderRec.cpp" alt="" coords="461,304,628,331"/>
+<area shape="rect" id="node7" href="$_single_sphere_8cpp.html" title="trace/src/SingleSphere.cpp" alt="" coords="653,304,831,331"/>
+<area shape="rect" id="node3" href="$_sphere_8h.html" title="trace/include/Sphere.h" alt="" coords="127,155,279,181"/>
+<area shape="rect" id="node4" href="$_world_8h.html" title="trace/include/World.h" alt="" coords="285,229,431,256"/>
+<area shape="rect" id="node11" href="$_geometric_object_8cpp.html" title="trace/src/GeometricObject.cpp" alt="" coords="381,155,581,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="trace/main.cpp" alt="" coords="5,304,113,331"/>
+<area shape="rect" id="node10" href="$_sphere_8cpp.html" title="trace/src/Sphere.cpp" alt="" coords="119,229,261,256"/>
+<area shape="rect" id="node8" href="$_tracer_8cpp.html" title="trace/src/Tracer.cpp" alt="" coords="298,304,437,331"/>
+<area shape="rect" id="node9" href="$_world_8cpp.html" title="trace/src/World.cpp" alt="" coords="138,304,274,331"/>
+</map>

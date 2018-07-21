@@ -1,0 +1,9 @@
+<map id="trace/src/GeometricObject.cpp" name="trace/src/GeometricObject.cpp">
+<area shape="rect" id="node2" href="$_geometric_object_8h.html" title="GeometricObject.h" alt="" coords="63,80,193,107"/>
+<area shape="rect" id="node3" href="$_r_g_bcolor_8h.html" title="RGBcolor.h" alt="" coords="185,229,274,256"/>
+<area shape="rect" id="node5" href="$_ray_8h.html" title="Ray.h" alt="" coords="5,229,61,256"/>
+<area shape="rect" id="node9" href="$_shader_rec_8h.html" title="ShaderRec.h" alt="" coords="79,155,177,181"/>
+<area shape="rect" id="node6" href="$_point3_d_8h.html" title="Point3D.h" alt="" coords="79,304,158,331"/>
+<area shape="rect" id="node7" href="$_vector3_d_8h.html" title="Vector3D.h" alt="" coords="75,379,162,405"/>
+<area shape="rect" id="node10" href="$_normal_8h.html" title="Normal.h" alt="" coords="85,229,160,256"/>
+</map>
