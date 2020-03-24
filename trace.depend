@@ -119,7 +119,7 @@
 	"Normal.h"
 	"Ray.h"
 
-1527787603 source:c:\users\toshiba\desktop\rtfgu-myself\main.cpp
+1532858401 source:c:\users\toshiba\desktop\rtfgu-myself\main.cpp
 	<iostream>
 	<vector>
 	"Vector3D.h"
@@ -145,10 +145,14 @@
 	"Point3D.h"
 	"Vector3D.h"
 
-1527788066 c:\users\toshiba\desktop\rtfgu-myself\include\rgbcolor.h
+1532186959 c:\users\toshiba\desktop\rtfgu-myself\include\rgbcolor.h
 	<iostream>
 
-1527076637 c:\users\toshiba\desktop\rtfgu-myself\include\viewplane.h
+1532863928 c:\users\toshiba\desktop\rtfgu-myself\include\viewplane.h
+	"Sampler.h"
+	"MultiJittered.h"
+	"Regular.h"
+	"NRooks.h"
 
 1527793733 c:\users\toshiba\desktop\rtfgu-myself\include\sphere.h
 	"GeometricObject.h"
@@ -162,7 +166,7 @@
 	"Normal.h"
 	"RGBcolor.h"
 
-1532112766 c:\users\toshiba\desktop\rtfgu-myself\include\world.h
+1532862139 c:\users\toshiba\desktop\rtfgu-myself\include\world.h
 	<vector>
 	"ViewPlane.h"
 	"RGBcolor.h"
@@ -209,7 +213,7 @@
 	"World.h"
 	"ShaderRec.h"
 
-1532141523 source:c:\users\toshiba\desktop\rtfgu-myself\src\sphere.cpp
+1532141777 source:c:\users\toshiba\desktop\rtfgu-myself\src\sphere.cpp
 	<math.h>
 	"Sphere.h"
 	"Constants.h"
@@ -221,16 +225,17 @@
 1527062290 source:c:\users\toshiba\desktop\rtfgu-myself\src\vector3d.cpp
 	"Vector3D.h"
 
-1527076637 source:c:\users\toshiba\desktop\rtfgu-myself\src\viewplane.cpp
+1532863962 source:c:\users\toshiba\desktop\rtfgu-myself\src\viewplane.cpp
 	"ViewPlane.h"
 
-1532141257 source:c:\users\toshiba\desktop\rtfgu-myself\src\world.cpp
+1532863317 source:c:\users\toshiba\desktop\rtfgu-myself\src\world.cpp
 	<fstream>
 	<iostream>
 	"World.h"
 	"Constants.h"
 	"Vector3D.h"
 	"Point3D.h"
+	"Point2D.h"
 	"Normal.h"
 	"Ray.h"
 	"MultipleObjects.h"
@@ -248,4 +253,48 @@
 
 1532112766 c:\users\toshiba\desktop\rtfgu-myself\include\plane.h
 	"GeometricObject.h"
+
+1532798559 c:\users\toshiba\desktop\rtfgu-myself\include\sampler.h
+	"Point2D.h"
+	"Point3D.h"
+	"Maths.h"
+	<vector>
+
+1532315120 c:\users\toshiba\desktop\rtfgu-myself\include\point2d.h
+
+1197231302 c:\users\toshiba\desktop\rtfgu-myself\include\maths.h
+	<stdlib.h>
+	"Constants.h"
+	"RGBColor.h"
+
+1532883797 source:c:\users\toshiba\desktop\rtfgu-myself\src\jittered.cpp
+	"Jittered.h"
+
+1532883799 c:\users\toshiba\desktop\rtfgu-myself\include\jittered.h
+	"Sampler.h"
+
+1532863120 source:c:\users\toshiba\desktop\rtfgu-myself\src\multijittered.cpp
+	"MultiJittered.h"
+
+1532528978 c:\users\toshiba\desktop\rtfgu-myself\include\multijittered.h
+	"Sampler.h"
+
+1532527068 source:c:\users\toshiba\desktop\rtfgu-myself\src\nrooks.cpp
+	"NRooks.h"
+
+1532527071 c:\users\toshiba\desktop\rtfgu-myself\include\nrooks.h
+	"Sampler.h"
+
+1532315118 source:c:\users\toshiba\desktop\rtfgu-myself\src\point2d.cpp
+	"Point2D.h"
+
+1532882114 c:\users\toshiba\desktop\rtfgu-myself\include\regular.h
+	"Sampler.h"
+
+1532882112 source:c:\users\toshiba\desktop\rtfgu-myself\src\regular.cpp
+	"Regular.h"
+
+1532882118 source:c:\users\toshiba\desktop\rtfgu-myself\src\sampler.cpp
+	"Sampler.h"
+	<algorithm>
 

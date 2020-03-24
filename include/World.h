@@ -9,6 +9,7 @@
 #include "Sphere.h" //also include the ShaderRec.h,forming loop included
 #include "Ray.h"
 #include "SingleSphere.h"
+#include "Camera.h"
 
 using namespace std;
 class World
@@ -19,6 +20,7 @@ class World
 
         void build();
         void render_scene() const;
+        void render_perspective() const;
         void add_object(GeometricObject *object_ptr);
         ShaderRec hit_bare_bones_objects(const Ray &ray);
         // void open_window(const int hres,const int vres);
@@ -33,6 +35,8 @@ class World
         // Sphere      sphere;
         Tracer      *tracer_ptr;
         vector<GeometricObject*> objects;
+        float       eye; // the location of eye in the z-axis
+        float       d;   // the distance between eye and the view window
 
 };
 

@@ -1,7 +1,10 @@
 #ifndef VIEWPLANE_H
 #define VIEWPLANE_H
 
-
+#include "Sampler.h"
+#include "MultiJittered.h"
+#include "Regular.h"
+#include "NRooks.h"
 class ViewPlane
 {
     public:
@@ -18,6 +21,7 @@ class ViewPlane
         void set_samples(const int n);
         void set_pixel_size(const float sizes);
         void set_gamut_display(const bool show);
+        void set_sampler(Sampler *sp);
 
     public:
         int   hres;               // horizontal image resolution
@@ -27,12 +31,13 @@ class ViewPlane
         float gamma;              // monitor gamma factor,default is 1.0
         float inv_gamma;          // 1 / gamma
         bool  show_out_of_gamut;  // display red if RGBcolor out of gamut
+        Sampler *sampler_ptr;     // a pointer to a sample object
 };
 
 inline void ViewPlane::set_hres(const int h_res) { hres = h_res; }
 inline void ViewPlane::set_vres(const int v_res) { vres = v_res; }
 inline void ViewPlane::set_pixel_size(const float sizes) { s = sizes; }
-inline void ViewPlane::set_samples(const int num) { num_samples = num; }
+// inline void ViewPlane::set_samples(const int num) { num_samples = num; }
 inline void ViewPlane::set_gamma(const float _gamma) { gamma = _gamma; inv_gamma = 1.0 / _gamma; }
 inline void ViewPlane::set_gamut_display(const bool show) { show_out_of_gamut = show; }
 #endif // VIEWPLANE_H

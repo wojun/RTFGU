@@ -20,6 +20,7 @@ class RGBcolor
         RGBcolor  operator- (const RGBcolor &rgbcolor);
         RGBcolor  operator* (float a);
         RGBcolor  operator/ (float a) const;
+        RGBcolor  operator/=(float a) ;
         bool operator== (const RGBcolor &rgbcolor);
 
         friend std::ostream& operator<<(std::ostream &out,const RGBcolor &rgbcolor);
@@ -46,6 +47,10 @@ inline RGBcolor RGBcolor::operator* (float a) {
 
 inline RGBcolor RGBcolor::operator/ (float a) const {
     return RGBcolor(r / a, g / a, b / a);
+}
+
+inline RGBcolor RGBcolor::operator/= (float a) {
+    return RGBcolor(r /= a, g /= a, b /= a);
 }
 
 inline bool RGBcolor::operator== (const RGBcolor &rgbcolor) {
